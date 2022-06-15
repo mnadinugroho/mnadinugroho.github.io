@@ -1,76 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Movie DB-Dwayne Johnson</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-	
-	<ul class="topnav">
-		<li><a class="active" href="#home">Home</a></li>
-		<li><a href="#news">News</a></li>
-		<li><a href="#contact">Contact</a></li>
-	  </ul>
-<div class="container">
-	
-	<div class="header">
-		<h1>Movie Db</h1>
-		<p><img src="img/cov.png"></p>
-		
-		<strong>FreePro</strong> --- <small><a href="https://www.imdb.com/name/nm0425005/">reference article</a></small>
-	</div> <!--/ .header -->
-	<div class="header1"><h1>DWAYNE JOHNSON</h1></div>
-	
-	<div class="main">
-		
-		<div class="left">
-			<p><img src="img/img1.jpg"></p>
-			<h3>Biography</h3>
-			<p>Dwayne Douglas Johnson, also known as The Rock, was born on May 2, 1972 in Hayward, California. He is the son of Ata Johnson (born Feagaimaleata Fitisemanu Maivia) and professional wrestler Rocky Johnson (born Wayde Douglas Bowles). His father, from Amherst, Nova Scotia, Canada, is black (of Black Nova Scotian descent), and his mother is of Samoan...<a href="https://www.imdb.com/name/nm0425005/bio?ref_=nm_ov_bio_sm">see full bio</a></p>
-		</div> <!--/ .header -->
-
-		<div class="middle">
-			<h3>Take a look back at The Rock's career in photos</h3>
-			<p><strong><a href="https://www.imdb.com/title/tt2283362/?ref_=nm_knf_t1" target="_blank">Jumanji:Welcome To The Jungle</a></strong> –Four teenagers are sucked into a magical video game, and the only way they can escape is to work together to finish the game.</p>
-			<p><img src="img/img2.jpg"></p>
-			<p><strong><a href="https://www.imdb.com/title/tt2283362/?ref_=nm_knf_t1" target="_blank">HERCULES</a></strong> –Having endured his legendary twelve labors, Hercules, the Greek demigod, has his life as a sword-for-hire tested when the King of Thrace and his daughter seek his aid in defeating a tyrannical warlord. 
-				Director: Brett Ratner 
-				Writers: Ryan J. Condal (screenplay by), Evan Spiliotopoulos (screenplay by) | 1 more credit » 
-				Stars: Dwayne Johnson, John Hurt, Ian McShane | See full cast & crew » </p>
-			<p><img src="img/img3.jpg"></p>
-			<p><strong><a href="https://www.imdb.com/title/tt4630562/" target="_blank">THE FATE OF THE FARIOUS</a></strong> –When a mysterious woman seduces Dom into the world of terrorism and a betrayal of those closest to him, the crew face trials that will test them as never before. 
-				Director: F. Gary Gray 
-				Writers: Gary Scott Thompson (based on characters created by), Chris Morgan 
-				Stars: Vin Diesel, Jason Statham, Dwayne Johnson |<a link href="https://www.imdb.com/title/tt4630562/fullcredits/?ref_=tt_ov_st_sm"></a> See full cast & crew » </a></p>
-			<p><img src="img/img4.jpg"></p>
-
-			
-		</div> <!--/ .middle -->
-
-		<div class="right">
-			<h3>Right</h3>
-			<p>Responsive Web Design adalah sebuah teknik yang digunakan untuk membuat layout website menyesuaikan ukuran lebar layar dari perangkat yang digunakan</p>
-			<h3>RELATED NEWS</h3>
-			<p>
-				<ul>
-					<li><a href="https://www.imdb.com/news/ni62269123?ref_=nm_nwr1">Dwayne Johnson Talks ‘Opportunities’ With Kevin Hart on ‘Hobbs and Shaw’ Set (Photo) </a></li>
-					<li><a href="https://www.imdb.com/news/ni62268752?ref_=nm_nwr2">Picture Tree Picks Up Malin Akerman’s ‘A Piece of My Heart’ (Exclusive) </a></li>
-					<li><a href="https://www.imdb.com/news/ni62267705?ref_=nm_nwr3">Wamg Giveaway – Win Scorpion King: Book Of Souls on Blu-ray </a></li>
-					
-				</ul>
-			</p>
-		</div> <!--/ .right -->
-
-	</div> <!--/ .main -->
-
-	<div class="footer">
-		<h4>Footer</h4>
-		<p>Copyright &copy; 2018</a></p>
-	</div> <!--/ .footer -->
- 
+<div class="calculator">
+	<input type="text" class="calculator-screen" value="0" disabled>
+	<div class="calculator-keys">
+		<div class="row">
+		<button class="all-clear">AC</button>
+		<button class="percentage">%</button>
+		<button class="operator" value="/">&divide;</button>
+		</div>
+		<div class="row">
+		<button class="number" value="7">7</button>
+		<button class="number" value="8">8</button>
+		<button class="number" value="9">9</button>
+		<button class="operator" value="*">&times;</button>
+		</div>
+		<div class="row">
+		<button class="number" value="4">4</button>
+		<button class="number" value="5">5</button>
+		<button class="number" value="6">6</button>
+		<button class="operator" value="-">-</button>
+		</div>
+		<div class="row">
+		<button class="number" value="1">1</button>
+		<button class="number" value="2">2</button>
+		<button class="number" value="3">3</button>
+		<button class="operator" value="+">+</button>
+		</div>
+		<div class="row">
+		<button class="number zero-btn" value="0">0</button>
+		<button class="decimal" value=".">,</button>
+		<button class="equal-sign">=</button>
+		</div>
+	</div>
 </div>
-
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
